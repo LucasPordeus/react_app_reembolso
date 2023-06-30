@@ -1,0 +1,150 @@
+{
+  "reembolso": [
+    {
+      "id": 2,
+      "nome": "Lucas",
+      "produto": "Combustível",
+      "valor": "50",
+      "tipo": "Transporte",
+      "status": "Recusado"
+    },
+    {
+      "id": 3,
+      "nome": "Lucas",
+      "produto": "Teclado",
+      "valor": "80",
+      "tipo": "Escritório",
+      "status": "Aprovado"
+    },
+    {
+      "id": 4,
+      "nome": "Ana",
+      "produto": "Prato feito",
+      "valor": "15",
+      "tipo": "Alimentação",
+      "status": "Triagem"
+    },
+    {
+      "nome": "Lucas",
+      "produto": "Caneta",
+      "valor": "5",
+      "tipo": "Escritório",
+      "status": "Triagem",
+      "id": 5
+    },
+    {
+      "nome": "Lucas",
+      "produto": "Monitor",
+      "valor": "1200",
+      "tipo": "Escritório",
+      "status": "Triagem",
+      "id": 6
+    },
+    {
+      "id": 7,
+      "nome": "João",
+      "produto": "Mouse e Teclado",
+      "valor": "20",
+      "tipo": "Mouse",
+      "status": "Triagem"
+    },
+    {
+      "id": 8,
+      "nome": "Lucas",
+      "produto": "Teste",
+      "valor": "100",
+      "tipo": "Transporte",
+      "status": "Aprovado"
+    }
+  ],
+  "movie": [
+    {
+      "id": 1,
+      "titulo": "O Grande Sonho",
+      "cinema": "Cineplex - Sala 2",
+      "horario": "15:00",
+      "poster": "https://media.fstatic.com/nQksTgJQ2HvxfgfI0VeOSEF4ksg=/322x478/smart/filters:format(webp)/media/movies/covers/2012/08/20b0a40029a6ae10430dfbea0fe0d5da.jpg",
+      "diretor": "Sofia Mendes",
+      "tipo": "Drama",
+      "ano": 2023,
+      "classificacao": 14
+    },
+    {
+      "id": 2,
+      "titulo": "Cidade Perdida",
+      "cinema": "CineWorld - Sala 1",
+      "horario": "18:30",
+      "poster": "https://br.web.img3.acsta.net/c_310_420/pictures/22/02/10/15/10/4068810.jpg",
+      "diretor": "Carlos Rodrigues",
+      "tipo": "Ação/Aventura",
+      "ano": 2023,
+      "classificacao": 12
+    },
+    {
+      "id": 3,
+      "titulo": "Amor em Paris",
+      "cinema": "Cinemax - Sala 3",
+      "horario": "20:15",
+      "poster": "data:image/jpeg;base64,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",
+      "diretor": "Isabella Ferreira",
+      "tipo": "Romance/Comédia",
+      "ano": 2022,
+      "classificacao": "L"
+    },
+    {
+      "id": 4,
+      "titulo": "Mistério do Abismo",
+      "cinema": "CineCity - Sala 4",
+      "horario": "21:45",
+      "poster": "https://br.web.img2.acsta.net/pictures/210/111/21011186_20130607200755481.jpg",
+      "diretor": "Ricardo Silva",
+      "tipo": "Suspense/Mistério",
+      "ano": 2023,
+      "classificacao": 16
+    },
+    {
+      "id": 5,
+      "titulo": "Era dos Dragões",
+      "cinema": "CineWorld - Sala 2",
+      "horario": "14:30",
+      "poster": "https://media.fstatic.com/vZW84ZevHvr9jFxzmd0ZemoePRQ=/322x478/smart/filters:format(webp)/media/movies/covers/2014/08/a-era-dos-dragoes_t34994_1.jpg",
+      "diretor": "Ana Costa",
+      "tipo": "Fantasia/Ação",
+      "ano": 2022,
+      "classificacao": 10
+    },
+    {
+      "id": 6,
+      "titulo": "Último Desafio",
+      "cinema": "Cinemax - Sala 1",
+      "horario": "19:00",
+      "poster": "https://images.justwatch.com/poster/298191661/s592/o-ultimo-desafio",
+      "diretor": "Gabriel Santos",
+      "tipo": "Ação/Thriller",
+      "ano": 2023,
+      "classificacao": 18
+    },
+    {
+      "id": 7,
+      "titulo": "Entre Dois Mundos",
+      "cinema": "CineCity - Sala 2",
+      "horario": "17:45",
+      "poster": "https://m.media-amazon.com/images/I/41+gHUbXeOL._AC_UF1000,1000_QL80_.jpg",
+      "diretor": "Luiza Almeida",
+      "tipo": "Drama/Ficção Científica",
+      "ano": 2023,
+      "classificacao": 14
+    },
+    {
+      "id": 8,
+      "titulo": "A Lenda do Tesouro Perdido",
+      "cinema": "Cineplex - Sala 1",
+      "horario": "22:00",
+      "poster": "https://br.web.img2.acsta.net/pictures/22/12/07/21/51/1544753.jpg",
+      "diretor": "Paulo Mendonça",
+      "tipo": "Ação/Aventura",
+      "ano": 2022,
+      "classificacao": 12
+    }
+  ]
+}
